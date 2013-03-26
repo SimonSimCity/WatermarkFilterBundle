@@ -1,0 +1,21 @@
+{
+    "name": "simonsimcity/liipimaginewatermark-bundle",
+    "description": "Watermark filter for liip-imagine",
+    "minimum-stability": "stable",
+    "keywords": ["watermark","liip", "imagine"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Schick",
+            "email": "simonsimcity@gmail.com"
+        }
+    ],
+    "require": {
+        "liip/imagine-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Simonsimcity\\LiipImagine\\WatermarkFilterBundle": "" }
+    },
+    "target-dir": "Simonsimcity/LiipImagine/WatermarkFilterBundle"
+}

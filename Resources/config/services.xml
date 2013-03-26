@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+	<services>
+		<service id="liip_imagine.filter.loader.watermark" class="Simonsimcity\LiipImagine\WatermarkFilterBundle\Imagine\Filter\Loader\WatermarkFilterLoader">
+			<argument type="service" id="liip_imagine" />
+			<tag name="liip_imagine.filter.loader" loader="watermark" />
+		</service>
+	</services>
+</container>
